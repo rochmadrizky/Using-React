@@ -8,11 +8,12 @@ import {
 import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import Error from './pages/Error.jsx';
+import Home from './pages/Home.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Home/>,
     errorElement: <Error/>
   },
   {
